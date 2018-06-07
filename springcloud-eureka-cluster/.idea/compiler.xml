@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="demo6" />
+        <module name="eureka" />
+        <module name="eureka1" />
+        <module name="spring-client1" />
+        <module name="spring-conf-client" />
+        <module name="spring-conf-server" />
+        <module name="spring-eureka-server" />
+        <module name="spring-zuul" />
+        <module name="springcloud-eureka-cluster-client-provider" />
+        <module name="springcloud-eureka-ribbion-client" />
+        <module name="springfeign" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo6" target="1.8" />
+      <module name="demo7" target="1.8" />
+      <module name="eureka" target="1.8" />
+      <module name="eureka1" target="1.8" />
+      <module name="spring-client1" target="1.8" />
+      <module name="spring-conf" target="1.8" />
+      <module name="spring-conf-client" target="1.8" />
+      <module name="spring-conf-server" target="1.8" />
+      <module name="spring-eureka-server" target="1.8" />
+      <module name="spring-hystrix" target="1.8" />
+      <module name="spring-zuul" target="1.8" />
+      <module name="springcloud-eureka-cluster" target="1.5" />
+      <module name="springcloud-eureka-cluster-client-provider" target="1.8" />
+      <module name="springcloud-eureka-cluster-server" target="1.5" />
+      <module name="springcloud-eureka-ribbion-client" target="1.8" />
+      <module name="springfeign" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

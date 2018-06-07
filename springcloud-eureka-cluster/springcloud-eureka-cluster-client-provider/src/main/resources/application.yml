@@ -1,0 +1,10 @@
+eureka:
+  client:
+      service-url:
+         defaultZone: http://backup1:8761/eureka/,http://master:8762/eureka/
+
+spring:
+    application:
+      name: cluster-provider-service
+server:
+  port: 4919
