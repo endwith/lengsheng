@@ -16,13 +16,13 @@
 
     <!-- 阿里云emial -->
     <bean id="aliyunEmail" class="com.longhang.util.AliyunEmail">
-        <constructor-arg index="0" value="LTAIKnqIIeA3uHck"/>
-        <constructor-arg index="1" value="JSoSk7dfaEz8aq7QLLKjkzQ2WWEHvH"/>
+        <constructor-arg index="0" value=""/>
+        <constructor-arg index="1" value=""/>
     </bean>
     <!-- 阿里云Sms -->
     <bean id="smsDemo" class="com.longhang.util.SmsDemo">
-        <constructor-arg index="0"  value="LTAIKnqIIeA3uHck"/>
-        <constructor-arg index="1" value="JSoSk7dfaEz8aq7QLLKjkzQ2WWEHvH"/>
+        <constructor-arg index="0"  value=""/>
+        <constructor-arg index="1" value=""/>
     </bean>
     <!--<OOS设置>-->
     <context:property-placeholder location="classpath:oos.properties" ignore-unresolvable="true"/>

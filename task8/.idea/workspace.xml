@@ -18,24 +18,53 @@
         <entry file="file://$PROJECT_DIR$/aliyunRMI/src/main/java/com/longhang/MyMain.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
+              <caret column="21" selection-start-column="21" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aliyunRMI/src/main/java/com/longhang/stuService/impl/ServiceImpl.java">
+      <file leaf-file-name="StuServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aliyunRMI/src/main/java/com/longhang/stuService/impl/StuServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="StuServiceImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/aliyunRMI/src/main/java/com/longhang/stuService/impl/StuServiceImpl.java">
+      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testMvc/src/main/resources/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-276" />
+            <state relative-caret-position="345">
+              <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="oos.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testMvc/src/main/resources/oos.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="uploadOOS.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testMvc/src/main/resources/uploadOOS.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+            </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/testMvc/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/testMvc/src/main/resources/oos.properties" />
+        <option value="$PROJECT_DIR$/testMvc/src/main/resources/uploadOOS.properties" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -66,6 +95,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -73,19 +103,23 @@
               <item name="task8" type="b2602c69:ProjectViewProjectNode" />
               <item name="task8" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="task8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task8" type="462c0819:PsiDirectoryNode" />
+              <item name="testMvc" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/aliyunRMI" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -161,11 +195,12 @@
       <workItem from="1527907519077" duration="207000" />
       <workItem from="1528111978141" duration="76000" />
       <workItem from="1528123830795" duration="118000" />
+      <workItem from="1528420423936" duration="94000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="401000" />
+    <option name="totallyTimeSpent" value="495000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="71" y="124" width="1608" height="900" extended-state="0" />
@@ -178,22 +213,22 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="JRebel Console" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="JRebel Executor" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25645995" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25968993" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -211,6 +246,16 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/aliyunRMI/src/main/java/com/longhang/MyMain.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aliyunRMI/src/main/java/com/longhang/stuService/impl/StuServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aliyunRMI/src/main/java/com/longhang/MyMain.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
@@ -226,16 +271,32 @@
     <entry file="file://$PROJECT_DIR$/aliyunRMI/src/main/java/com/longhang/MyMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aliyunRMI/src/main/java/com/longhang/stuService/impl/ServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/aliyunRMI/src/main/java/com/longhang/stuService/impl/StuServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/aliyunRMI/src/main/java/com/longhang/stuService/impl/StuServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/testMvc/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-276" />
+        <state relative-caret-position="345">
+          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testMvc/src/main/resources/oos.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testMvc/src/main/resources/uploadOOS.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
       </provider>
     </entry>
   </component>
