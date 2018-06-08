@@ -1,0 +1,8 @@
+CREATE TABLE `users` (
+  `id` bigint(50) NOT NULL AUTO_INCREMENT,
+  `name` varchar(50) NOT NULL,
+  `logintime` bigint(100) DEFAULT NULL,
+  `password` varchar(100) NOT NULL,
+  `create_at` bigint(100) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=29 DEFAULT CHARSET=utf8;

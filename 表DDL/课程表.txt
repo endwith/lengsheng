@@ -1,0 +1,16 @@
+CREATE TABLE `curriculum` (
+  `id` bigint(50) NOT NULL AUTO_INCREMENT,
+  `picture` varchar(500) DEFAULT NULL,
+  `name` varchar(50) DEFAULT NULL,
+  `introduce` varchar(255) DEFAULT NULL,
+  `threshold` int(5) DEFAULT NULL,
+  `difficulty` int(5) DEFAULT NULL,
+  `cycle` varchar(20) DEFAULT NULL,
+  `demand` int(10) DEFAULT NULL,
+  `wages1` varchar(10) DEFAULT NULL,
+  `wages2` varchar(10) DEFAULT NULL,
+  `wages3` varchar(10) DEFAULT NULL,
+  `onnum` int(20) DEFAULT NULL,
+  `prompt` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
