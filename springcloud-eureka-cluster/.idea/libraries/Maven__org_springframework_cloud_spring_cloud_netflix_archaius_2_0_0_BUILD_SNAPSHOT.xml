@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: org.springframework.cloud:spring-cloud-netflix-archaius:2.0.0.BUILD-SNAPSHOT">
     <CLASSES>
-      <root url="jar://G:/maven/apache-maven-3.5.3/maven-dependcies/m2/repository/org/springframework/cloud/spring-cloud-netflix-archaius/2.0.0.BUILD-SNAPSHOT/spring-cloud-netflix-archaius-2.0.0.BUILD-20180605.110101-2081.jar!/" />
+      <root url="jar://G:/maven/apache-maven-3.5.3/maven-dependcies/m2/repository/org/springframework/cloud/spring-cloud-netflix-archaius/2.0.0.BUILD-SNAPSHOT/spring-cloud-netflix-archaius-2.0.0.BUILD-20180608.020108-2107.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://G:/maven/apache-maven-3.5.3/maven-dependcies/m2/repository/org/springframework/cloud/spring-cloud-netflix-archaius/2.0.0.BUILD-SNAPSHOT/spring-cloud-netflix-archaius-2.0.0.BUILD-20180605.110101-2081-javadoc.jar!/" />
+      <root url="jar://G:/maven/apache-maven-3.5.3/maven-dependcies/m2/repository/org/springframework/cloud/spring-cloud-netflix-archaius/2.0.0.BUILD-SNAPSHOT/spring-cloud-netflix-archaius-2.0.0.BUILD-20180608.020108-2107-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://G:/maven/apache-maven-3.5.3/maven-dependcies/m2/repository/org/springframework/cloud/spring-cloud-netflix-archaius/2.0.0.BUILD-SNAPSHOT/spring-cloud-netflix-archaius-2.0.0.BUILD-20180605.110101-2081-sources.jar!/" />
+      <root url="jar://G:/maven/apache-maven-3.5.3/maven-dependcies/m2/repository/org/springframework/cloud/spring-cloud-netflix-archaius/2.0.0.BUILD-SNAPSHOT/spring-cloud-netflix-archaius-2.0.0.BUILD-20180608.020108-2107-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

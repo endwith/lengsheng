@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: org.springframework.cloud:spring-cloud-netflix-ribbon:2.0.0.BUILD-SNAPSHOT">
     <CLASSES>
-      <root url="jar://G:/maven/apache-maven-3.5.3/maven-dependcies/m2/repository/org/springframework/cloud/spring-cloud-netflix-ribbon/2.0.0.BUILD-SNAPSHOT/spring-cloud-netflix-ribbon-2.0.0.BUILD-20180605.110141-1143.jar!/" />
+      <root url="jar://G:/maven/apache-maven-3.5.3/maven-dependcies/m2/repository/org/springframework/cloud/spring-cloud-netflix-ribbon/2.0.0.BUILD-SNAPSHOT/spring-cloud-netflix-ribbon-2.0.0.BUILD-20180608.020149-1169.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://G:/maven/apache-maven-3.5.3/maven-dependcies/m2/repository/org/springframework/cloud/spring-cloud-netflix-ribbon/2.0.0.BUILD-SNAPSHOT/spring-cloud-netflix-ribbon-2.0.0.BUILD-20180605.110141-1143-javadoc.jar!/" />
+      <root url="jar://G:/maven/apache-maven-3.5.3/maven-dependcies/m2/repository/org/springframework/cloud/spring-cloud-netflix-ribbon/2.0.0.BUILD-SNAPSHOT/spring-cloud-netflix-ribbon-2.0.0.BUILD-20180608.020149-1169-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://G:/maven/apache-maven-3.5.3/maven-dependcies/m2/repository/org/springframework/cloud/spring-cloud-netflix-ribbon/2.0.0.BUILD-SNAPSHOT/spring-cloud-netflix-ribbon-2.0.0.BUILD-20180605.110141-1143-sources.jar!/" />
+      <root url="jar://G:/maven/apache-maven-3.5.3/maven-dependcies/m2/repository/org/springframework/cloud/spring-cloud-netflix-ribbon/2.0.0.BUILD-SNAPSHOT/spring-cloud-netflix-ribbon-2.0.0.BUILD-20180608.020149-1169-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

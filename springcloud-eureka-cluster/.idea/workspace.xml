@@ -28,6 +28,20 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="springcloud-eureka-cluster" />
   </component>
@@ -37,37 +51,34 @@
         <entry file="file://$PROJECT_DIR$/spring-conf-server/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="184">
-              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpringEurekaServerApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-eureka-server/src/main/java/com/example/springeurekaserver/SpringEurekaServerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpringfeignApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springfeign/src/main/java/com/example/springfeign/SpringfeignApplication.java">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-eureka-server/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="230">
-              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HiController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springfeign/src/main/java/com/example/springfeign/HiController.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-conf-server/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="40" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="40" />
+            <state relative-caret-position="414">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpringConfClientApplication.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-conf-client/src/main/java/com/example/springconfclient/SpringConfClientApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,8 +86,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-zuul/src/main/resources/application.yml">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-conf-client/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-eureka-server/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-conf-client/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-529">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-conf-client/src/main/resources/bootstrap.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="368">
               <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
@@ -84,48 +118,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpringZuulApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-zuul/src/main/java/com/example/springzuul/SpringZuulApplication.java">
+      <file leaf-file-name="SpringEurekaServerApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-eureka-server/src/main/java/com/example/springeurekaserver/SpringEurekaServerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpringConfClientApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-conf-client/src/main/java/com/example/springconfclient/SpringConfClientApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+            <state relative-caret-position="74">
+              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#467#468#0" expanded="true" />
-                <element signature="e#541#542#0" expanded="true" />
-                <element signature="e#638#639#0" expanded="true" />
-                <element signature="e#664#665#0" expanded="true" />
+                <element signature="e#369#370#0" expanded="true" />
+                <element signature="e#449#450#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SchedualService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springfeign/src/main/java/com/example/springfeign/SchedualService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" selection-start-line="9" selection-end-line="14" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SchedualServiceHystric.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springfeign/src/main/java/com/example/springfeign/SchedualServiceHystric.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -133,8 +134,8 @@
       <file leaf-file-name="SpringConfServerApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-conf-server/src/main/java/com/example/springconfserver/SpringConfServerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            <state relative-caret-position="161">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -151,7 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/demo12344/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-eureka-cluster-server/pom.xml" />
         <option value="$PROJECT_DIR$/demo12344/src/main/resources/application-peer1.yml" />
         <option value="$PROJECT_DIR$/demo12344/src/main/java/com/example/demo/Demo123455Application.java" />
@@ -190,17 +190,18 @@
         <option value="$PROJECT_DIR$/spring-zuul/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/springcloud-eureka-cluster-client-customer/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-conf-server/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-conf-server/src/main/java/com/example/springconfserver/SpringConfServerApplication.java" />
         <option value="$PROJECT_DIR$/spring-conf-client/src/main/java/com/example/springconfclient/dwd.java" />
         <option value="$PROJECT_DIR$/spring-conf-client/src/main/java/com/example/springconfclient/ConfigClientApplication.java" />
-        <option value="$PROJECT_DIR$/spring-conf-client/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/spring-conf-client/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/spring-eureka-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/spring-eureka-server/src/main/java/com/example/springeurekaserver/SpringEurekaServerApplication.java" />
+        <option value="$PROJECT_DIR$/spring-conf-server/src/main/java/com/example/springconfserver/SpringConfServerApplication.java" />
+        <option value="$PROJECT_DIR$/spring-conf-server/src/main/resources/log4j2.xml" />
+        <option value="$PROJECT_DIR$/spring-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-conf-server/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-conf-client/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-conf-client/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/spring-conf-client/src/main/resources/bootstrap.properties" />
         <option value="$PROJECT_DIR$/spring-conf-server/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/spring-eureka-server/src/main/java/com/example/springeurekaserver/SpringEurekaServerApplication.java" />
         <option value="$PROJECT_DIR$/spring-conf-client/src/main/java/com/example/springconfclient/SpringConfClientApplication.java" />
       </list>
     </option>
@@ -235,10 +236,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="149" />
-    <option name="y" value="209" />
-    <option name="width" value="1608" />
-    <option name="height" value="953" />
+    <option name="x" value="211" />
+    <option name="y" value="98" />
+    <option name="width" value="1446" />
+    <option name="height" value="847" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -252,13 +253,205 @@
               <item name="springcloud-eureka-cluster" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud-eureka-cluster" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="springcloud-eureka-cluster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-eureka-cluster" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-conf-client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-eureka-cluster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-eureka-cluster" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-conf-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-eureka-cluster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-eureka-cluster" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-conf-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-eureka-cluster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-eureka-cluster" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-conf-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-eureka-cluster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-eureka-cluster" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-conf-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-eureka-cluster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-eureka-cluster" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-conf-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-eureka-cluster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-eureka-cluster" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-conf-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="springconfclient" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-eureka-cluster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-eureka-cluster" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-conf-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-eureka-cluster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-eureka-cluster" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-conf-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-eureka-cluster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-eureka-cluster" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-conf-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-eureka-cluster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-eureka-cluster" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-conf-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-eureka-cluster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-eureka-cluster" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-conf-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-eureka-cluster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-eureka-cluster" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-conf-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-eureka-cluster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-eureka-cluster" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-conf-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-eureka-cluster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-eureka-cluster" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-conf-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="springconfserver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-eureka-cluster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-eureka-cluster" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-conf-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-eureka-cluster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-eureka-cluster" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-eureka-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-eureka-cluster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-eureka-cluster" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-eureka-cluster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-eureka-cluster" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-eureka-cluster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-eureka-cluster" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-eureka-cluster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-eureka-cluster" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-eureka-cluster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-eureka-cluster" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-eureka-cluster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-eureka-cluster" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="springeurekaserver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-eureka-cluster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-eureka-cluster" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -271,7 +464,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="G:/ideaproject/boot-student-mybatis" />
+    <property name="last_opened_file_path" value="G:/ideaproject/aliyun" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -300,7 +493,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringZuulApplication">
+  <component name="RunManager" selected="Spring Boot.SpringConfClientApplication">
     <configuration name="Client1Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.springclient1.Client1Application" />
       <module name="spring-client1" />
@@ -480,7 +673,6 @@
       <item itemvalue="Spring Boot.DemoApplication" />
       <item itemvalue="Spring Boot.Demo6Application" />
       <item itemvalue="Spring Boot.Demo7Application" />
-      <item itemvalue="Application.Client1Application" />
       <item itemvalue="Spring Boot.SpringHystrixApplication" />
       <item itemvalue="Spring Boot.SpringfeignApplication" />
       <item itemvalue="Spring Boot.SpringZuulApplication" />
@@ -489,6 +681,7 @@
       <item itemvalue="Spring Boot.SpringConfServerApplication" />
       <item itemvalue="Spring Boot.SpringConfClientApplication" />
       <item itemvalue="Spring Boot.SpringEurekaServerApplication" />
+      <item itemvalue="Application.Client1Application" />
     </list>
     <recent_temporary>
       <list>
@@ -513,11 +706,14 @@
       <workItem from="1528270773658" duration="2115000" />
       <workItem from="1528273929461" duration="15091000" />
       <workItem from="1528336782766" duration="22684000" />
+      <workItem from="1528426475084" duration="10720000" />
+      <workItem from="1528449871241" duration="16305000" />
+      <workItem from="1528505931587" duration="4098000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59695000" />
+    <option name="totallyTimeSpent" value="90818000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -529,17 +725,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="149" y="209" width="1608" height="953" extended-state="0" />
+    <frame x="211" y="98" width="1446" height="847" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.501292" side_tool="true" weight="0.3297491" />
       <window_info anchor="bottom" id="JRebel Console" order="14" sideWeight="0.500646" side_tool="true" weight="0.44987145" />
-      <window_info anchor="right" id="Maven Projects" order="9" weight="0.32945737" />
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.32828283" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="JRebel Executor" order="13" />
       <window_info id="Capture Tool" order="8" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32972583" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="5" />
@@ -551,10 +747,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3292683" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.499354" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.499354" weight="0.61212975" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49766356" visible="true" weight="0.35917312" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49766356" visible="true" weight="0.24675325" />
       <window_info anchor="right" id="Bean Validation" order="8" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -567,43 +763,6 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="2" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info id="JRebel" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info id="Image Layers" order="4" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.499354" visible="true" weight="0.47301137" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.50233644" side_tool="true" weight="0.30297157" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info id="Capture Tool" order="8" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3292683" />
-      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
-      <window_info anchor="right" id="Maven Projects" order="9" />
-      <window_info anchor="bottom" id="JRebel Executor" order="13" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49766356" visible="true" weight="0.30297157" />
-      <window_info anchor="bottom" id="JRebel Console" order="14" sideWeight="0.500646" side_tool="true" weight="0.44987145" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="right" id="Bean Validation" order="8" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -613,20 +772,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/demo7/src/main/resources/application.yml" />
-    <entry file="file://$PROJECT_DIR$/demo7/src/main/java/com/example/demo7/Demo7Application.java" />
-    <entry file="file://$PROJECT_DIR$/demo7/src/main/java/com/example/demo7/CustomerController.java" />
-    <entry file="jar://G:/maven/apache-maven-3.5.3/maven-dependcies/m2/repository/org/springframework/cloud/spring-cloud-commons/1.2.2.RELEASE/spring-cloud-commons-1.2.2.RELEASE.jar!/org/springframework/cloud/client/serviceregistry/Registration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="5" column="48" lean-forward="true" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springcloud-eureka-cluster-client-customer/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -637,40 +786,15 @@
     <entry file="file://$PROJECT_DIR$/springcloud-eureka-cluster-server/pom.xml" />
     <entry file="file://$PROJECT_DIR$/springcloud-eureka-cluster-server/src/main/java/org/spring/springcloud/EurekaServerApplication.java" />
     <entry file="file://$PROJECT_DIR$/springcloud-eureka-cluster-server/src/main/resources/application-peer1.properties" />
-    <entry file="file://$PROJECT_DIR$/springcloud-eureka-cluster-client-provider/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-828">
-          <caret line="9" selection-start-line="9" selection-end-line="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-hystrix/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-hystrix/pom.xml" />
     <entry file="file://$PROJECT_DIR$/springcloud-eureka-cluster-client-provider/src/main/java/org/spring/springcloud/ProviderApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="109">
           <caret line="11" column="19" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-hystrix/src/main/java/com/example/springhystrix/SpringHystrixApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-hystrix/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-hystrix/src/main/java/com/example/springhystrix/SpringHystrixApplication.java" />
     <entry file="file://$PROJECT_DIR$/springcloud-eureka-cluster-client-provider/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -678,13 +802,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springfeign/src/main/resources/a.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/springfeign/src/main/resources/a.yml" />
     <entry file="jar://G:/maven/apache-maven-3.5.3/maven-dependcies/m2/repository/org/springframework/spring-beans/4.3.8.RELEASE/spring-beans-4.3.8.RELEASE.jar!/org/springframework/beans/factory/annotation/Autowired.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -703,10 +821,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
           <caret line="501" column="16" selection-start-line="501" selection-start-column="16" selection-end-line="501" selection-end-column="16" />
-          <folding>
-            <element signature="e#16131#16132#0" expanded="true" />
-            <element signature="e#16181#16182#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -715,27 +829,10 @@
         <state relative-caret-position="-670" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springfeign/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="46" column="39" lean-forward="true" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo12344/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-eureka-cluster-client-provider/src/main/java/org/spring/springcloud/web/ProviderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -750,24 +847,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="19" />
-          <folding>
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#529#530#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-zuul/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo12344/src/main/java/com/example/demo/Demo123455Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -796,13 +875,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -841,110 +913,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-conf-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-conf-client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-eureka-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-conf-client/src/main/resources/bootstrap.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-eureka-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="76" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-conf-server/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-eureka-server/src/main/java/com/example/springeurekaserver/SpringEurekaServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-conf-server/src/main/java/com/example/springconfserver/SpringConfServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-conf-client/src/main/java/com/example/springconfclient/SpringConfClientApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-            <element signature="e#638#639#0" expanded="true" />
-            <element signature="e#664#665#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springfeign/src/main/java/com/example/springfeign/SchedualService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
+        <state relative-caret-position="161">
           <caret line="9" selection-start-line="9" selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springfeign/src/main/java/com/example/springfeign/SchedualServiceHystric.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springfeign/src/main/java/com/example/springfeign/SpringfeignApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
+        <state relative-caret-position="161">
           <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springfeign/src/main/java/com/example/springfeign/HiController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="276">
           <caret line="15" column="40" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -958,7 +951,306 @@
     <entry file="file://$PROJECT_DIR$/spring-zuul/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/maven/apache-maven-3.5.3/maven-dependcies/m2/repository/org/springframework/cloud/spring-cloud-config-server/1.3.1.RELEASE/spring-cloud-config-server-1.3.1.RELEASE.jar!/org/springframework/cloud/config/server/environment/MultipleJGitEnvironmentRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka-cluster-client-provider/src/main/java/org/spring/springcloud/web/ProviderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka-cluster-client-provider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-69">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-zuul/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-24">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/maven/apache-maven-3.5.3/maven-dependcies/m2/repository/org/springframework/cloud/spring-cloud-dependencies/Dalston.RC1/spring-cloud-dependencies-Dalston.RC1.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1380" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springfeign/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="51" column="2" selection-start-line="51" selection-start-column="2" selection-end-line="62" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo12344/src/main/java/com/example/demo/Demo123455Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-conf-server/src/main/resources/log4j2.xml" />
+    <entry file="uml://MAVEN/demo2:demo:0.0.1-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>demo2:demo:0.0.1-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">demo2:demo:0.0.1-SNAPSHOT</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-starter:jar:2.0.0.RC2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-starter:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-context:jar:2.0.0.RC2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-starter:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-context:jar:2.0.0.RC2/org.springframework.security:spring-security-crypto:jar:5.0.5.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-starter:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-commons:jar:2.0.0.RC2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-starter:jar:2.0.0.RC2/org.springframework.security:spring-security-rsa:jar:1.0.5.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-starter:jar:2.0.0.RC2/org.springframework.security:spring-security-rsa:jar:1.0.5.RELEASE/org.bouncycastle:bcpkix-jdk15on:jar:1.56</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-starter:jar:2.0.0.RC2/org.springframework.security:spring-security-rsa:jar:1.0.5.RELEASE/org.bouncycastle:bcpkix-jdk15on:jar:1.56/org.bouncycastle:bcprov-jdk15on:jar:1.56</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-netflix-core:jar:2.0.0.RC2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-netflix-core:jar:2.0.0.RC2/org.springframework.boot:spring-boot-autoconfigure:jar:2.0.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-netflix-core:jar:2.0.0.RC2/org.springframework.boot:spring-boot-starter-aop:jar:2.0.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-netflix-core:jar:2.0.0.RC2/org.springframework.boot:spring-boot-starter-aop:jar:2.0.2.RELEASE/org.springframework:spring-aop:jar:5.0.6.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-netflix-core:jar:2.0.0.RC2/org.springframework.boot:spring-boot-starter-aop:jar:2.0.2.RELEASE/org.springframework:spring-aop:jar:5.0.6.RELEASE/org.springframework:spring-beans:jar:5.0.6.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-netflix-core:jar:2.0.0.RC2/org.springframework.boot:spring-boot-starter-aop:jar:2.0.2.RELEASE/org.aspectj:aspectjweaver:jar:1.8.13</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-netflix-eureka-client:jar:2.0.0.RC2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/com.netflix.eureka:eureka-client:jar:1.9.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/com.netflix.eureka:eureka-client:jar:1.9.0/org.codehaus.jettison:jettison:jar:1.3.7</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/com.netflix.eureka:eureka-client:jar:1.9.0/org.codehaus.jettison:jettison:jar:1.3.7/stax:stax-api:jar:1.0.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/com.netflix.eureka:eureka-client:jar:1.9.0/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/com.netflix.eureka:eureka-client:jar:1.9.0/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/com.netflix.eureka:eureka-client:jar:1.9.0/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/commons-jxpath:commons-jxpath:jar:1.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/com.netflix.eureka:eureka-client:jar:1.9.0/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/joda-time:joda-time:jar:2.9.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/com.netflix.eureka:eureka-client:jar:1.9.0/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/org.antlr:antlr-runtime:jar:3.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/com.netflix.eureka:eureka-client:jar:1.9.0/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/org.antlr:antlr-runtime:jar:3.4/org.antlr:stringtemplate:jar:3.2.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/com.netflix.eureka:eureka-client:jar:1.9.0/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/org.antlr:antlr-runtime:jar:3.4/antlr:antlr:jar:2.7.7</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/com.netflix.eureka:eureka-client:jar:1.9.0/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/com.google.guava:guava:jar:14.0.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/com.netflix.eureka:eureka-client:jar:1.9.0/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/com.google.code.gson:gson:jar:2.8.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/com.netflix.eureka:eureka-client:jar:1.9.0/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/org.apache.commons:commons-math:jar:2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/com.netflix.eureka:eureka-client:jar:1.9.0/com.netflix.archaius:archaius-core:jar:0.7.6</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/com.netflix.eureka:eureka-client:jar:1.9.0/com.netflix.archaius:archaius-core:jar:0.7.6/com.google.guava:guava:jar:16.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/com.netflix.eureka:eureka-client:jar:1.9.0/javax.ws.rs:jsr311-api:jar:1.1.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/com.netflix.eureka:eureka-client:jar:1.9.0/com.netflix.servo:servo-core:jar:0.12.21</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/com.netflix.eureka:eureka-client:jar:1.9.0/com.netflix.servo:servo-core:jar:0.12.21/com.google.guava:guava:jar:19.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/com.netflix.eureka:eureka-client:jar:1.9.0/com.sun.jersey:jersey-core:jar:1.19.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/com.netflix.eureka:eureka-client:jar:1.9.0/com.sun.jersey:jersey-client:jar:1.19.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/com.netflix.eureka:eureka-client:jar:1.9.0/com.sun.jersey.contribs:jersey-apache-client4:jar:1.19.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/com.netflix.eureka:eureka-client:jar:1.9.0/org.apache.httpcomponents:httpclient:jar:4.5.5</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/com.netflix.eureka:eureka-client:jar:1.9.0/org.apache.httpcomponents:httpclient:jar:4.5.5/org.apache.httpcomponents:httpcore:jar:4.4.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/com.netflix.eureka:eureka-client:jar:1.9.0/org.apache.httpcomponents:httpclient:jar:4.5.5/commons-codec:commons-codec:jar:1.11</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/com.netflix.eureka:eureka-client:jar:1.9.0/com.google.inject:guice:jar:4.1.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/com.netflix.eureka:eureka-client:jar:1.9.0/com.google.inject:guice:jar:4.1.0/aopalliance:aopalliance:jar:1.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/com.netflix.eureka:eureka-client:jar:1.9.0/com.google.inject:guice:jar:4.1.0/com.google.guava:guava:jar:16.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/com.netflix.eureka:eureka-client:jar:1.9.0/com.github.vlsi.compactmap:compactmap:jar:1.2.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/com.netflix.eureka:eureka-client:jar:1.9.0/com.github.vlsi.compactmap:compactmap:jar:1.2.1/com.github.andrewoma.dexx:dexx-collections:jar:0.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/com.netflix.eureka:eureka-client:jar:1.9.0/com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/com.netflix.eureka:eureka-client:jar:1.9.0/com.fasterxml.jackson.core:jackson-core:jar:2.9.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/com.netflix.eureka:eureka-client:jar:1.9.0/com.fasterxml.jackson.core:jackson-databind:jar:2.9.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/com.netflix.eureka:eureka-core:jar:1.9.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/com.netflix.eureka:eureka-core:jar:1.9.0/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/com.netflix.eureka:eureka-core:jar:1.9.0/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1/javax.xml.stream:stax-api:jar:1.0-2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/com.netflix.eureka:eureka-core:jar:1.9.0/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1/org.codehaus.woodstox:stax2-api:jar:3.1.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.0.0.RC2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-netflix-ribbon:jar:2.0.0.RC2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-netflix-archaius:jar:2.0.0.RC2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.0.0.RC2/commons-configuration:commons-configuration:jar:1.8</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.0.0.RC2/commons-configuration:commons-configuration:jar:1.8/commons-lang:commons-lang:jar:2.6</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RC2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RC2/com.netflix.ribbon:ribbon:jar:2.2.5</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RC2/com.netflix.ribbon:ribbon:jar:2.2.5/com.netflix.ribbon:ribbon-transport:jar:2.2.5</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RC2/com.netflix.ribbon:ribbon:jar:2.2.5/com.netflix.ribbon:ribbon-transport:jar:2.2.5/io.reactivex:rxnetty-contexts:jar:0.4.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RC2/com.netflix.ribbon:ribbon:jar:2.2.5/com.netflix.ribbon:ribbon-transport:jar:2.2.5/io.reactivex:rxnetty-servo:jar:0.4.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RC2/com.netflix.ribbon:ribbon:jar:2.2.5/com.netflix.ribbon:ribbon-transport:jar:2.2.5/com.google.guava:guava:jar:16.0.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RC2/com.netflix.ribbon:ribbon:jar:2.2.5/com.netflix.hystrix:hystrix-core:jar:1.5.12</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RC2/com.netflix.ribbon:ribbon:jar:2.2.5/com.netflix.hystrix:hystrix-core:jar:1.5.12/org.hdrhistogram:HdrHistogram:jar:2.1.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RC2/com.netflix.ribbon:ribbon:jar:2.2.5/io.reactivex:rxnetty:jar:0.4.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RC2/com.netflix.ribbon:ribbon:jar:2.2.5/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-codec-http:jar:4.1.24.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RC2/com.netflix.ribbon:ribbon:jar:2.2.5/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-codec-http:jar:4.1.24.Final/io.netty:netty-codec:jar:4.1.24.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RC2/com.netflix.ribbon:ribbon:jar:2.2.5/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-transport-native-epoll:jar:4.1.24.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RC2/com.netflix.ribbon:ribbon:jar:2.2.5/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-transport-native-epoll:jar:4.1.24.Final/io.netty:netty-common:jar:4.1.24.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RC2/com.netflix.ribbon:ribbon:jar:2.2.5/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-transport-native-epoll:jar:4.1.24.Final/io.netty:netty-buffer:jar:4.1.24.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RC2/com.netflix.ribbon:ribbon:jar:2.2.5/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-transport-native-epoll:jar:4.1.24.Final/io.netty:netty-transport-native-unix-common:jar:4.1.24.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RC2/com.netflix.ribbon:ribbon:jar:2.2.5/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-transport-native-epoll:jar:4.1.24.Final/io.netty:netty-transport:jar:4.1.24.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RC2/com.netflix.ribbon:ribbon:jar:2.2.5/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-transport-native-epoll:jar:4.1.24.Final/io.netty:netty-transport:jar:4.1.24.Final/io.netty:netty-resolver:jar:4.1.24.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RC2/com.netflix.ribbon:ribbon:jar:2.2.5/com.google.guava:guava:jar:16.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RC2/com.netflix.ribbon:ribbon-core:jar:2.2.5</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RC2/com.netflix.ribbon:ribbon-httpclient:jar:2.2.5</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RC2/com.netflix.ribbon:ribbon-httpclient:jar:2.2.5/commons-collections:commons-collections:jar:3.2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RC2/com.netflix.ribbon:ribbon-httpclient:jar:2.2.5/com.google.guava:guava:jar:16.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RC2/com.netflix.ribbon:ribbon-httpclient:jar:2.2.5/com.netflix.netflix-commons:netflix-commons-util:jar:0.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RC2/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.5</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RC2/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.5/com.netflix.netflix-commons:netflix-statistics:jar:0.1.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RC2/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.5/com.google.guava:guava:jar:16.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RC2/io.reactivex:rxjava:jar:1.3.8</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/com.netflix.ribbon:ribbon-eureka:jar:2.2.5</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/com.netflix.ribbon:ribbon-eureka:jar:2.2.5/org.slf4j:slf4j-api:jar:1.7.25</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/com.thoughtworks.xstream:xstream:jar:1.4.10</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/com.thoughtworks.xstream:xstream:jar:1.4.10/xmlpull:xmlpull:jar:1.1.3.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RC2/com.thoughtworks.xstream:xstream:jar:1.4.10/xpp3:xpp3_min:jar:1.1.4c</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RC2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RC2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.2.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.2.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.2.RELEASE/com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.2.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.31</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.2.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.31</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.2.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.31</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.9.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.9.Final/javax.validation:validation-api:jar:2.0.1.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.9.Final/org.jboss.logging:jboss-logging:jar:3.3.2.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.9.Final/com.fasterxml:classmate:jar:1.3.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework:spring-web:jar:5.0.6.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework:spring-webmvc:jar:5.0.6.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE/org.springframework:spring-webmvc:jar:5.0.6.RELEASE/org.springframework:spring-expression:jar:5.0.6.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.boot:spring-boot-starter-actuator:jar:2.0.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.boot:spring-boot-starter-actuator:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.0.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.boot:spring-boot-starter-actuator:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-actuator:jar:2.0.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.boot:spring-boot-starter-actuator:jar:2.0.2.RELEASE/io.micrometer:micrometer-core:jar:1.0.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.boot:spring-boot-starter-actuator:jar:2.0.2.RELEASE/io.micrometer:micrometer-core:jar:1.0.4/org.hdrhistogram:HdrHistogram:jar:2.1.10</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.boot:spring-boot-starter-actuator:jar:2.0.2.RELEASE/io.micrometer:micrometer-core:jar:1.0.4/org.latencyutils:LatencyUtils:jar:2.0.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.boot:spring-boot-starter-freemarker:jar:2.0.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.boot:spring-boot-starter-freemarker:jar:2.0.2.RELEASE/org.freemarker:freemarker:jar:2.3.28</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.boot:spring-boot-starter-freemarker:jar:2.0.2.RELEASE/org.springframework:spring-context-support:jar:5.0.6.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RC2/com.sun.jersey:jersey-servlet:jar:1.19.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RC2/com.sun.jersey:jersey-server:jar:1.19.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RC2/javax.inject:javax.inject:jar:1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RC2/com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.9.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RC2/com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.9.3/com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.9.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RC2/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RC2/com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.9.3/com.fasterxml.woodstox:woodstox-core:jar:5.0.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot:jar:2.0.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot:jar:2.0.2.RELEASE/org.springframework:spring-context:jar:5.0.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.2.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.2.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3/ch.qos.logback:logback-core:jar:1.2.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.2.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.2.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0/org.apache.logging.log4j:log4j-api:jar:2.10.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.2.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.25</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/javax.annotation:javax.annotation-api:jar:1.3.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE/org.yaml:snakeyaml:jar:1.19</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-test:jar:2.0.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.0.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2/org.ow2.asm:asm:jar:5.0.4</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/junit:junit:jar:4.12</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.assertj:assertj-core:jar:3.9.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.mockito:mockito-core:jar:2.15.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.mockito:mockito-core:jar:2.15.0/net.bytebuddy:byte-buddy:jar:1.7.11</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.mockito:mockito-core:jar:2.15.0/net.bytebuddy:byte-buddy-agent:jar:1.7.11</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.mockito:mockito-core:jar:2.15.0/org.objenesis:objenesis:jar:2.6</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.hamcrest:hamcrest-library:jar:1.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0/com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.springframework:spring-core:jar:5.0.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.springframework:spring-core:jar:5.0.6.RELEASE/org.springframework:spring-jcl:jar:5.0.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.springframework:spring-test:jar:5.0.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.2.RELEASE/org.xmlunit:xmlunit-core:jar:2.5.1</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.11132437619961612" x="4669.0" y="1090.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-eureka-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-conf-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-conf-server/src/main/java/com/example/springconfserver/SpringConfServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-conf-client/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-conf-client/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
           <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-eureka-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-eureka-server/src/main/java/com/example/springeurekaserver/SpringEurekaServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-conf-server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-conf-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-529">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-conf-client/src/main/java/com/example/springconfclient/SpringConfClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
